@@ -1,0 +1,7 @@
+The latests stage of the course work is a Flat MPI program working on 4 servers that scales from 1 to 112 ranks in increments of 1 rank. I have also completed an optimized version of the program that runs on 1 GPU. 
+
+This archive only contains the GPU version of the LBM program.
+
+This archive includes: check_submission.sh (modified line 21 of original script due to change in BCP4 environment), d2q9-bgk.c (the complete Flat MPI LBM program), env.sh (the modules that I need to load the launch the program on BCP4), Makefile (Make file), job_submit_to_gpu (job file).
+
+Note: I have updated the check_submission.sh file on line 21. I have replaced the line: 'module load languages/intel' with the line: 'module load languages/intel/2017.01'.
